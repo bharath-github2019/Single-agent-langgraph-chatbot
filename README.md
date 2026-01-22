@@ -16,7 +16,6 @@ Interactive CLI chat loop
 
 # Project structure 
 
-.
 ├── main.py                     # Core chat application
 
 ├── current_conversation.txt    # Auto-saved live conversation
@@ -40,14 +39,24 @@ python -m venv venv
 source venv/bin/activate  # macOS/Linux
 venv\Scripts\activate     # Windows
 Install dependencies
+
 Copy code
+
 Bash
+
 pip install openai langgraph langchain-core python-dotenv
-Environment Variables
+Environment Variable
+
 Create a .env file in the project root with the following values:
+
 Copy code
+
 Env
+
 AZURE_KEY=your_azure_openai_api_key
+
 AZURE_ENDPOINT=https://your-resource-name.openai.azure.com/
+
 AZURE_VERSION=2024-02-15-preview
+
 AZURE_CHAT_DEPLOYMENT=your_chat_model_deployment_name
