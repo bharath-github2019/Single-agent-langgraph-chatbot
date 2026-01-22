@@ -18,9 +18,13 @@ Interactive CLI chat loop
 
 .
 ├── main.py                     # Core chat application
+
 ├── current_conversation.txt    # Auto-saved live conversation
+
 ├── conversation_history_*.txt  # Timestamped saved conversations
+
 ├── .env                        # # Environment variables
+
 └── README.md
 
 # Installation
