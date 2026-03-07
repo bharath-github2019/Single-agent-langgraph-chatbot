@@ -43,8 +43,9 @@ Install dependencies
 Copy code
 
 Bash
-
+```
 pip install openai langgraph langchain-core python-dotenv
+```
 Environment Variable
 
 Create a .env file in the project root with the following values:
